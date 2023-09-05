@@ -50,15 +50,19 @@ ul li{
 
 }
 
-.btnpurple{
+.btnpurple {
     background-color:#8B48BF;
-    color: white;
     font-family: 'Be Vietnam Pro', sans-serif; 
     height: 45px;
     width: 128px;
     border: none;
     margin: 13px 68px;
     border-radius: 50px;
+}
+
+.btnpurple a {
+    color: white;
+    text-decoration: none;
 }
 
 main{
@@ -124,10 +128,9 @@ main{
     font-family: 'Be Vietnam Pro', sans-serif;
     padding: 40px, 0px, 40px, 0px;
     height: 168px;
-    width: 1440px; ;
+    width: 1440px; 
     justify-content: space-around;
     align-items: center;
-
 }
 
 .proscontainer h2{
@@ -261,6 +264,91 @@ main{
     justify-content: center;
 }
 
+.btnwhite ls {
+    background-color: white;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    height: 45px;
+    width: 128px;
+    border: none;
+    margin: 13px 68px;
+    border-radius: 50px;
+}
 
+.btnwhite a {
+    color: #8B48BF;
+    text-decoration: none;
+}
 
+.foot {
+    display: flex;
+    justify-content:space-around;
+    background: rgba(30, 30, 38, 1); 
+    width: 1440px;
+    height: 250px;
+    margin-left: 7.7rem;
+    padding: 0 8rem 0 8rem;
+}
 
+.logofoot {
+    margin-top: 40px;
+    margin-left: 2rem;
+}
+
+.logofoot span {
+    color: white;
+    padding-left: 16px;
+    font-size: 22px;
+    font-weight: 525;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    line-height: 35px;
+    margin-right: 10rem;
+}
+.networks .icon {
+    margin-top: 80px;
+    padding-right: 10px;
+}
+
+.menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.list .text{
+    font-size: 16px;
+    line-height: 35px;
+    padding-right: 12rem;
+}
+
+.btnfoot {
+    padding-right: 0;
+}
+
+.btninbox {
+    background: white;
+    color:rgba(160, 160, 160, 1);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 45px;
+    width: 201px;
+    margin-top: 3rem;
+    text-align: left;
+    border: none;
+    border-radius: 50px;
+}
+
+.btnsmall a {
+    color: white;
+    text-decoration: none;
+}
+
+.copy {
+    color:rgba(160, 160, 160, 1); 
+    margin: 80px 0 0 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12.5px;
+    
+}
+.ppal {
+    padding-bottom: 0%;
+}

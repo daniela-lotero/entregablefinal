@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&family=Karla:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -27,11 +27,11 @@
         </nav>
 
         <button class="btnpurple">
-            Contact
+            <a href="">Contact</a>
         </button>
     </header>
 
-    <main>
+    <main class="ppal">
         <section class="padelcontainer">
             <section>
                 <picture class="padelimg">
@@ -41,7 +41,9 @@
             <section class="infopadel">
                 <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h1>
                 <p>The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
-                <button class="btnpurple">Contact</button>
+                <button class="btnpurple">
+                    <a href="">Contact</a>
+                </button>
             </section>
         </section>
 
@@ -112,12 +114,50 @@
                 </div>
             </section>
             <button class="btnpurple">
-                More
+                <a href="#">More</a>
             </button>
         </section>
+        <div class="proscontainer">
+            <h2>Get to know the best teams of the year</h2>
+            <button class="btnwhite">
+                <a href="#">Go for it</a>
+            </button>
+        </div>
     </main>
-
-    <footer>
+    <footer class="foot">
+        <div class="logofoot">
+            <img src="./icon/Subtract.svg" alt="logo"><span>Sportit</span>
+            <p class="networks">
+                <img class="icon" src="./icon/icon-facebook.svg" alt="facebook">
+                <img class="icon" src="./icon/icon-youtube.svg" alt="youtube">
+                <img class="icon" src="./icon/icon-twitter.svg" alt="twiter">
+                <img class="icon" src="./icon/icon-pinterest.svg" alt="pinterest">
+                <img class="icon" src="./icon/icon-instagram.svg" alt="instagram"> 
+            </p>
+        </div>
+        <section class="menu2">
+            <ul class="list">
+                <li class="text">Home</li>
+                <li class="text">Pricing</li>
+                <li class="text">Products</li>
+                <li class="text">About Us</li>
+            </ul>
+            <section>
+                <ul class="list">
+                    <li class="text">Trainning</li>
+                    <li class="text">Community</li>
+                    <li class="text">Privacy Policy</li>
+                </ul>
+            </section>
+        </section>
+        <form action="" method="post" class="btnfoot">
+            <input type="search" name="busqueda" placeholder="Update in your inbox..." class="btninbox">
+                
+            <button type="submit" class="btnsmall">
+                <a href="#">Go</a>
+            </button>
+            <p class="copy">Copyright 2020. All Rights Reserved</p>
+        </form>
         
     </footer>
 </body>
