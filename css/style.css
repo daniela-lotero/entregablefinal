@@ -264,7 +264,7 @@ main{
     justify-content: center;
 }
 
-.btnwhite ls {
+.btnwhite {
     background-color: white;
     font-family: 'Be Vietnam Pro', sans-serif; 
     height: 45px;
@@ -283,9 +283,9 @@ main{
     display: flex;
     justify-content:space-around;
     background: rgba(30, 30, 38, 1); 
-    width: 1440px;
+    width: 95.85vw;
     height: 250px;
-    margin-left: 7.7rem;
+    margin: 0 80px 0 20px;
     padding: 0 8rem 0 8rem;
 }
 
@@ -318,7 +318,7 @@ main{
 .list .text{
     font-size: 16px;
     line-height: 35px;
-    padding-right: 12rem;
+    padding-right: 8rem;
 }
 
 .btnfoot {
