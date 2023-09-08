@@ -14,18 +14,18 @@ body {
 
 header{
     background-color: #FFFFFF;
-    height: 100px;
     font-family: 'Be Vietnam Pro', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items:center;
-    padding: 10px 20px; 
-    margin: 40px 10px;
+    width: 100vw;
+    margin-top:35px;
 }
 
 .logo{
     width: 108px;
     height: 25px;
+    
 }
 
 .menu{
@@ -60,7 +60,7 @@ ul li{
     height: 45px;
     width: 128px;
     border: none;
-    margin: 13px 68px;
+    margin-top: 10px;
     border-radius: 50px;
     transition: background-color 2s;
 }
@@ -71,25 +71,30 @@ ul li{
 }
 
 main{
-    padding: 35px 20px 15px;
+    /*padding: 35px 20px 15px;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Be Vietnam Pro', sans-serif;
+    width: 100vw;
 }
+
 .padelcontainer{
     display: flex;
-    padding: 35px 20px 15px;
+    margin:10px 50px 40px 5px;
     justify-content: center;
     align-items: center;
     font-family: 'Be Vietnam Pro', sans-serif;
+    
 }
 
 .padelimg{
-    height: 170px;
-    width: 170px;
-    margin-right: 50px;
+        height: 170px;
+        width: 170px;
+        margin-right: 50px;
+        margin-left: 50px;
+    
 }
 
 .infopadel{
@@ -99,8 +104,6 @@ main{
     margin-left: 50px;
     justify-content: center;
     height: 400px;
-    width: 470px;
-    
     
 }
 
@@ -133,9 +136,9 @@ main{
     font-family: 'Be Vietnam Pro', sans-serif;
     padding: 40px, 0px, 40px, 0px;
     height: 168px;
-    width: 100%; 
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 .proscontainer h2{
@@ -176,7 +179,7 @@ main{
     flex-wrap:wrap;
     justify-content: space-around;
     align-items: flex-start;
-    width: 100%; 
+    width: 100vw; 
     padding: 40px;
     
 }
@@ -216,7 +219,7 @@ main{
     justify-content: flex-start;
     align-items: center;
     margin: 100px 100px;
-    width: 100%; 
+    width: 100vw; 
 }
 
 .containerbotm h3{
@@ -239,7 +242,7 @@ main{
     height: 70px;
     width: 70px;
     margin-top:-30px;
-    margin-left: 150px;
+    margin-left: 110px;
     
 }
 
@@ -285,14 +288,15 @@ main{
     text-decoration: none;
 }
 
+
 .foot {
     display: flex;
     justify-content:space-around;
     background: rgba(30, 30, 38, 1); 
-    width: 95.85vw;
+    width: 100vw;
     height: 250px;
-    margin: 0 80px 0 20px;
-    padding: 0 8rem 0 8rem;
+    /*margin: 0 80px 0 20px;*/
+    /*padding: 0 8rem 0 8rem;*/
 }
 
 .logofoot {
@@ -360,56 +364,7 @@ main{
     transition: all 2s;
     
 }
-.ppal {
-    padding-bottom: 0%;
-}
 
-@media screen and (max-width: 480px) {
-    .menu{
-        display: none;
-    }
-
-    .menu-responsive{
-        display:block;
-    }
-
-    .iconmenu {
-        width: 40px;
-        position:absolute;
-        top:40px; 
-    }
-
-    header button{
-        display: none;
-    }
-
-    .padelcontainer{
-        flex-direction: column;
-    
-    }
-
-    .padelimg img{
-        max-width: 100%; 
-        max-height: 100%; 
-        object-fit: contain;
-        margin-left: 70px;  
-    }
-
-
-    .proscontainer{
-        background-color:#3CDDF3;
-        height: 306px;
-        flex-direction: column;
-        
-    }
-
-    .proscontainer h2{
-        font-size: 36px;
-    }
-
-
-
-}
 
 /* pseudoclases*/
 
@@ -439,5 +394,136 @@ main{
     background: linear-gradient(#8B48BF, #58FAF4);
     transform: scale(1.1);
 }
+
+@media  (max-width: 480px)  {
+    main{
+        width: fit-content;
+    }
+
+    .menu{
+        display: none;
+        
+    }
+
+    .menu-responsive{
+        display: block;
+    }
+
+    .iconmenu{
+        width: 40px;
+    }
+
+    header button{
+        display: none;
+    }
+
+    .padelcontainer{
+        flex-direction: column;
+        
+    }
+
+    .padelcontainer img{
+        margin-left: 50px;
+    }
+
+    .proscontainer{
+        background-color: #3CDDF3;
+        flex-direction: column;
+        width: 100%;
+        height: 366px;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .proscontainer h2{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-left: 30px;
+    }
+
+    .proscontainer p {
+        margin-left: 40px;
+        font-size:16px ;
+    }
+
+    .cajainfo{
+        flex-direction: column;
+        background-color:#FFFFFF;
+        width: 100%;
+        
+    }
+
+    .caja1,
+    .caja2,
+    .caja3{
+        width: 100%;
+    }
+
+    .cajainfo h4{
+        background-color: #8B48BF4D;
+        height: 43px;
+        padding-top: 10px;
+        padding-left: 50px;
+        position: relative;
+    }
+
+    .cajainfo button{
+        position: absolute;
+        margin-left: -30px;
+    }
+
+    .avatar-responsive{
+        display: none;
+    }
+
+    .containerbotm{
+        margin-top:10px;
+        margin-bottom: 0px;
+        width: 100%;
+        
+    }
+
+    .containerbotm img{
+        left: 230px;
+        margin-top: -25px;
+    }
+
+    .btnwhite{
+        background-color:#232C50;
+    
+    }
+    .btnwhite a {
+        color: white;  
+    }
+
+
+    .foot {
+        width:745px;;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnfoot input{
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .btnfoot {
+        order: -3;
+    }
+
+    .menu2 {
+        order: -2; 
+    }
+
+
+}
+
+
 
 
